@@ -1,0 +1,52 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/modelsim_ase/tcl/vsim/pref.tcl 
+# do reconfig_multi_topology_b_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\intelFPGA_lite\18.1\modelsim_ase\win32aloem\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\intelFPGA_lite\18.1\modelsim_ase\win32aloem\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b {C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b/mux_5.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mux_5
+# 
+# Top level modules:
+# 	mux_5
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b {C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b/reconfig_multi_topology_b.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module reconfig_multi_topology_b
+# 
+# Top level modules:
+# 	reconfig_multi_topology_b
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b {C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b/mux_3.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mux_3
+# 
+# Top level modules:
+# 	mux_3
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b {C:/Users/caoshizhuo/Desktop/reconfig_multi_topology_b/reconfig_multi_topology_b_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module reconfig_multi_topology_b_tb
+# 
+# Top level modules:
+# 	reconfig_multi_topology_b_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  reconfig_multi_topology_b_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps reconfig_multi_topology_b_tb 
+# Loading work.reconfig_multi_topology_b_tb
+# Loading work.reconfig_multi_topology_b
+# Loading work.mux_5
+# Loading work.mux_3
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  

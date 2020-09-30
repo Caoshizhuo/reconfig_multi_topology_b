@@ -1,0 +1,11 @@
+module reconfig_multi_topology_b(
+input[7:0]					a1;
+input[7:0]					a2;
+input[7:0]					b;
+
+input							s0;
+input							s1;
+
+output[8:0]					y;
+
+);

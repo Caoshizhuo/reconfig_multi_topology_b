@@ -1,0 +1,348 @@
+|reconfig_multi_topology_b
+a1[0] => a1[0].IN1
+a1[1] => a1[1].IN1
+a1[2] => a1[2].IN1
+a1[3] => a1[3].IN1
+a1[4] => a1[4].IN1
+a1[5] => a1[5].IN1
+a1[6] => a1[6].IN1
+a1[7] => a1[7].IN1
+a2[0] => a2[0].IN1
+a2[1] => a2[1].IN1
+a2[2] => a2[2].IN1
+a2[3] => a2[3].IN1
+a2[4] => a2[4].IN1
+a2[5] => a2[5].IN1
+a2[6] => a2[6].IN1
+a2[7] => a2[7].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+s0 => sigma.IN0
+s0 => sigma.IN0
+s0 => sigma.IN0
+s0 => sigma.IN0
+s1 => sigma.IN1
+s1 => sigma.IN1
+s1 => sigma.IN1
+s1 => sigma.IN1
+y[0] << f0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[8] << carry_7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_0
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_1
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_2
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_3
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_4
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_5
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_6
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_5:mux_5_u_7
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+din_4 => dout.DATAB
+din_5 => dout.DATAA
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+sel[2] => Equal3.IN2
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_0
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_1
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_2
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_3
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_4
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_5
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_6
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reconfig_multi_topology_b|mux_3:u_mux_3_7
+din_1 => dout.DATAA
+din_1 => dout.DATAB
+din_2 => dout.DATAB
+din_3 => dout.DATAB
+sel[0] => Equal0.IN2
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN2
+sel[1] => Equal0.IN1
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN0
+sel[2] => Equal0.IN0
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN1
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
